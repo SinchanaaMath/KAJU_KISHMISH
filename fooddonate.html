@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+
+<body style="font-family:  'Poppins', sans-serif;">
+    <div class="container">
+        <div class="regform">
+            <form action="fooddonateform.php" method="post">
+                <p class="logo"><b style="color: #ce780f;">DONOR </b><b style="color: #2a65b7;">PAGE</b></p>
+                <div class="input">
+                    <label for="food">ITEM CATEGORY</label>
+                    <br><br>
+                    <div class="image-radio-group">
+                        <input type="radio" id="packed-food" name="image-choice" value="packed-food">
+                        <label for="packed-food">
+              <img src="img\packaged food-f.jpg" alt="packed-food" >
+            </label>
+                        <input type="radio" id="cooked-food" name="image-choice" value="cooked-food">
+                        <label for="cooked-food">
+              <img src="img\cooked food-f.jpg" alt="cooked-food" >
+            </label>
+
+                        </label>
+                    </div>
+                    <div class="input">
+                        <label for="foodname"> ITEM NAME</label>
+                        <input type="text" id="foodname" name="foodname">
+                    </div>
+
+
+                    <div class="radio">
+                        <label for="meal">ITEM CLASS</label>
+                        <br><br>
+
+                        <input type="radio" name="meal" id="veg" value="veg">
+                        <label for="veg" style="padding-right: 40px;">Veg</label>
+                        <input type="radio" name="meal" id="Non-veg" value="Non-veg">
+                        <label for="Non-veg">Non-veg</label>
+                        <input type="radio" name="meal" id="Vegan" value="Vegan">
+                        <label for="Vegan">Vegan</label>
+
+                    </div>
+                    <br>
+
+
+                    <!-- <input type="text" id="food" name="food"> -->
+                </div>
+                <div class="input">
+                    <label for="quantity">QUANTITY (In Servings):</label>
+                    <input type="text" id="quantity" name="quantity">
+                </div>
+                <div class="input">
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="phoneno">PH NO</label>
+                        <input type="text" id="phoneno" name="phoneno">
+                    </div>
+                    <div>
+                        <label for="pincode">PINCODE</label>
+                        <input type="text" id="pincode" name="pincode">
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="location"></label>
+                    <label for="area">AREA</label>
+                    <select id="area" name="area" style="padding:10px;">
+  <option value="bangalore north">Bangalore North</option>
+  <!-- <option value="kancheepuram">Kancheepuram</option>
+  <option value="thiruvallur">Thiruvallur</option>
+  <option value="vellore">Vellore</option>
+  <option value="tiruvannamalai">Tiruvannamalai</option>
+  <option value="tiruvallur">Tiruvallur</option>
+  <option value="tiruppur">Tiruppur</option> -->
+  <option value="bangalore south">Bangalore South</option>
+  <!-- <option value="erode">Erode</option>
+  <option value="salem">Salem</option>
+  <option value="namakkal">Namakkal</option>
+  <option value="tiruchirappalli">Tiruchirappalli</option>
+  <option value="thanjavur">Thanjavur</option>
+  <option value="pudukkottai">Pudukkottai</option>
+  <option value="karur">Karur</option>
+  <option value="ariyalur">Ariyalur</option>
+  <option value="perambalur">Perambalur</option> -->
+  <option value="bangalore east">Bangalore East</option>
+  <!-- <option value="virudhunagar">Virudhunagar</option>
+  <option value="dindigul">Dindigul</option>
+  <option value="ramanathapuram">Ramanathapuram</option>
+  <option value="sivaganga">Sivaganga</option>
+  <option value="thoothukkudi">Thoothukkudi</option>
+  <option value="tirunelveli">Tirunelveli</option>
+  <option value="tiruppur">Tiruppur</option>
+  <option value="tenkasi">Tenkasi</option>
+  <option value="kanniyakumari">Kanniyakumari</option> -->
+  <option value="bangalore west">Bangalore West</option>
+</select>
+
+                    <label for="address" style="padding-left: 10px;">ADDRESS</label>
+                    <input type="text" id="address" name="address"><br>
+
+
+
+
+                </div>
+                <div class="btn">
+                    <button type="submit" name="submit"> <a href="success.html">SUBMIT</a></button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
